@@ -1,0 +1,40 @@
+.font-design{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+*{
+    max-width: 1600px;
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    padding: 18px 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+header{
+    padding: 50px;
+}
+header h1 span{
+    color: #FD6E0A;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    max-width: 870px;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    gap: 51px;
+    list-style: none;
+    align-items: center;
+}
+
+header a{
+    text-decoration: none;
+}
