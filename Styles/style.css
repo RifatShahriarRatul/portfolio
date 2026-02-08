@@ -14,12 +14,13 @@
     background-color: #FD6E0A;
     color: #FFFFFF;
     font-weight: bold;
+    font-size: 20px;
 }
 header{
     background-color: #FFF8F3;
     padding: 50px 0 0 0;
     background: url(../images/developer.png), url(../images/header_bg.png);
-    background-position: top left, bottom right;
+    background-position: 38px 23px, bottom right;
     background-repeat: no-repeat;
 }
 header h1{
@@ -82,6 +83,7 @@ header a{
     background-color: #fafafa;
     color: #FD6E0A;
     font-weight: bold;
+    font-size: 20px;
 }
 .abt{
     margin: 130px 230px 0 230px;
@@ -176,4 +178,35 @@ header a{
     display: flex;
     justify-content: center;
     margin-top: 50px;
+}
+footer{
+    background-color: #FFF8F3;
+    margin: 113px 0;
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+    height: 780px;
+}
+footer h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+footer p{
+    font-size: 16px;
+    margin-bottom:30px ;
+}
+footer .text{
+    width: 461px;
+    height: 64px;
+    margin: 28px auto 24px;
+    padding: 18px 0 18px 30px;
+    border: none;
+    border-radius: 5px;
+}
+footer textarea{
+    border: none;
+    width: 461px;
+    height: 180px;
+    padding: 18px 0 134px 30px;
+    margin-bottom: 24px;
 }
