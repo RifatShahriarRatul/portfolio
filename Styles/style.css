@@ -123,3 +123,57 @@ header a{
     font-size: 18px;
     color: #757575;
 }
+.skills{
+    display: flex;
+    gap: 24px;
+}
+.skills div{
+    padding: 30px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 #a4a4a437;
+}
+.skills h3{
+    font-size: 20px;
+    margin: 30px 0 20px 0;
+}
+.skills p{
+    font-size: 16px;
+}
+.resume{
+    margin: 130px 277px 0 230px;
+}
+.resume h2{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 113px;
+}
+.edux{
+    display:flex;
+    gap: 71px;
+}
+.edux h3{
+    font-size: 30px;
+    margin-bottom:30px ;
+}
+.edux h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.edux h5{
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.edux p{
+    color: #757575;
+    font-size: 16px;
+}
+.edux hr{
+    margin: 30px 0;
+}
+.resume .button{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
