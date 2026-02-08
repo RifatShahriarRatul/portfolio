@@ -19,7 +19,7 @@
 header{
     background-color: #FFF8F3;
     padding: 50px 0 0 0;
-    background: url(../images/developer.png), url(../images/header_bg.png);
+    background: url(./images/developer.png), url(./images/header_bg.png);
     background-position: 38px 23px, bottom right;
     background-repeat: no-repeat;
 }
@@ -198,13 +198,14 @@ footer p{
 footer .text{
     width: 461px;
     height: 64px;
-    margin: 28px auto 24px;
+    margin: 28px auto 0;
     padding: 18px 0 18px 30px;
     border: none;
     border-radius: 5px;
 }
 footer textarea{
     border: none;
+    margin-top: 28px;
     width: 461px;
     height: 180px;
     padding: 18px 0 134px 30px;
